@@ -4,7 +4,7 @@
 
 
 import axios from 'axios';
-const API_URL = 'http://localhost:8000/api/users/'; // 👈 check this
+const API_URL = 'https://backend-lac-pi.vercel.app/'; // 👈 check this
 
 const register = async (userData) =>{
     const response= await axios.post (API_URL, userData)
